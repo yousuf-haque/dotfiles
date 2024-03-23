@@ -38,3 +38,12 @@ fish_add_path $GEM_HOME/bin
 
 # Opus env values
 set -gx FLASHLIGHT_API_KEY fl_af9d8d392daa3b66bc6fcd79b7cf1032
+
+# fzf
+source /opt/local/share/fzf/shell/key-bindings.fish
+
+# Zoxide
+zoxide init fish | source
+
+# Wezterm
+wezterm shell-completion --shell fish | source
